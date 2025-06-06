@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Allen Psychiatry - Providing compassionate mental health care in Utah. Specializing in ADHD, anxiety, depression, and PTSD treatment.">
+    <title>Allen Psychiatry | Mental Health Care in Provo, UT</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-top">
+            <div class="container">
+                <div class="contact-info">
+                    <a href="tel:3855041334" class="phone">
+                        <i class="fas fa-phone"></i>
+                        (385) 504-1334
+                    </a>
+                    <a href="https://maps.google.com" class="address" target="_blank" rel="noopener">
+                        <i class="fas fa-map-marker-alt"></i>
+                        3311 North University Ave, Ste 200, Provo, UT 84604
+                    </a>
+                </div>
+                <div class="header-actions">
+                    <a href="https://pp-wfe-100.advancedmd.com/154986/account/logon" class="portal-link">
+                        <i class="fas fa-user"></i>
+                        Patient Portal
+                    </a>
+                    <a href="https://pp-wfe-100.advancedmd.com/154986/onlinescheduling/v2/patients" class="btn btn-primary" id="schedule-online-link">
+                        <i class="fas fa-calendar-alt"></i>
+                        Schedule Now
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="header-main">
+            <div class="container">
+                <div class="navbar">
+                    <a href="/" class="logo">
+                        <img src="./assets/ap-new-color-logo.png" alt="Allen Psychiatry Logo" width="180" height="60">
+                    </a>
+                    
+                    <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    
+                    <nav class="main-nav">
+                        <ul class="nav-list">
+                            <li><a href="/index.html">Home</a></li>
+                            <li class="has-dropdown">
+                                <a href="/pages/services/">Services</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/pages/services/adhd.html">ADHD Treatment</a></li>
+                                    <li><a href="/pages/services/anxiety.html">Anxiety Treatment</a></li>
+                                    <li><a href="/pages/services/depression.html">Depression Treatment</a></li>
+                                    <li><a href="/pages/services/ptsd.html">PTSD Treatment</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/pages/locations/provo.html">Provo Office</a></li>
+                            <li><a href="/pages/locations/rural.html">Rural Services</a></li>
+                            <li><a href="/pages/about/about.html">About Us</a></li>
+                            <li><a href="/pages/telehealth.html">TeleHealth</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Comprehensive Mental Health Care in Provo, UT</h1>
+                <p class="lead">Expert psychiatric services for individuals, families, and communities throughout Utah County and rural Utah.</p>
+                <div class="hero-actions">
+                    <a href="tel:3855041334" class="btn btn-primary">
+                        <i class="fas fa-phone"></i>
+                        Call (385) 504-1334
+                    </a>
+                    <a href="https://pp-wfe-100.advancedmd.com/154986/onlinescheduling/v2/patients" class="btn btn-secondary" id="cta-schedule-btn">
+                        <i class="fas fa-calendar-alt"></i>
+                        Schedule Appointment
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Allen Psychiatry offers comprehensive mental health services tailored to your individual needs. Our experienced team provides evidence-based treatment in a supportive, confidential environment.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="./assets/adhd.jpg" alt="ADHD Testing & Treatment">
+                    </div>
+                    <div class="service-content">
+                        <h3>ADHD Testing & Treatment</h3>
+                        <p>Comprehensive evaluation and personalized treatment plans for ADHD in adolescents and adults.</p>
+                        <a href="/pages/services/adhd.html" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="./assets/anxiety.jpg" alt="Anxiety Treatment">
+                    </div>
+                    <div class="service-content">
+                        <h3>Anxiety Treatment</h3>
+                        <p>Expert care for anxiety disorders, including social anxiety, panic disorder, and generalized anxiety.</p>
+                        <a href="/pages/services/anxiety.html" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="./assets/depression.jpg" alt="Depression Treatment">
+                    </div>
+                    <div class="service-content">
+                        <h3>Depression Treatment</h3>
+                        <p>Compassionate support and evidence-based treatment for depression and mood disorders.</p>
+                        <a href="/pages/services/depression.html" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="./assets/ptsd.jpg" alt="PTSD Treatment">
+                    </div>
+                    <div class="service-content">
+                        <h3>PTSD Treatment</h3>
+                        <p>Specialized care for post-traumatic stress disorder and trauma-related conditions.</p>
+                        <a href="/pages/services/ptsd.html" class="btn btn-outline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Take the First Step Toward Better Mental Health</h2>
+                <p>Whether you're seeking help for yourself or a loved one, we're here to provide the support and care you need. Our team of mental health professionals is dedicated to helping you achieve lasting wellness.</p>
+                <div class="cta-buttons">
+                    <a href="tel:3855041334" class="btn btn-primary">
+                        <i class="fas fa-phone"></i>
+                        Call (385) 504-1334
+                    </a>
+                    <a href="https://pp-wfe-100.advancedmd.com/154986/onlinescheduling/v2/patients" class="btn btn-secondary">
+                        <i class="fas fa-calendar-alt"></i>
+                        Schedule Appointment
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Allen Psychiatry</h3>
+                    <p>Comprehensive psychiatric services in a warm, welcoming environment where patients feel heard and supported.</p>
+                    <p class="tagline">Mental Health Matters</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="/pages/services/adhd.html">ADHD Testing & Treatment</a></li>
+                        <li><a href="/pages/services/anxiety.html">Anxiety Treatment</a></li>
+                        <li><a href="/pages/services/depression.html">Depression Treatment</a></li>
+                        <li><a href="/pages/services/ptsd.html">PTSD Treatment</a></li>
+                        <li><a href="/pages/telehealth.html">TeleHealth Services</a></li>
+                        <li><a href="/pages/locations/rural.html">Rural Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/pages/about/about.html">About Us</a></li>
+                        <li><a href="/pages/services/">Services</a></li>
+                        <li><a href="/pages/locations/provo.html">Provo Office</a></li>
+                        <li><a href="https://pp-wfe-100.advancedmd.com/154986/account/logon">Patient Portal</a></li>
+                        <li><a href="https://pp-wfe-100.advancedmd.com/154986/onlinescheduling/v2/patients">Schedule Appointment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <div class="contact-info">
+                        <p>
+                            <strong>Address:</strong><br>
+                            3311 North University Ave,<br>
+                            Suite 200<br>
+                            Provo, UT 84604
+                        </p>
+                        <p>
+                            <strong>Phone:</strong><br>
+                            <a href="tel:3855041334">(385) 504-1334</a>
+                        </p>
+                        <p>
+                            <strong>Email:</strong><br>
+                            <a href="mailto:info@allenpsychiatry.net">info@allenpsychiatry.net</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Allen Psychiatry. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Disclaimer Modal -->
+    <div id="disclaimer-modal" class="disclaimer-modal" style="display:none;">
+        <div class="disclaimer-modal-content">
+            <h2>IMPORTANT DISCLAIMER</h2>
+            <p><strong>Medical Information:</strong> This website provides general information only and does not establish a doctor-patient relationship. It is not a substitute for professional medical advice, diagnosis, or treatment. Always consult your healthcare provider for medical concerns.<br><br>
+            <strong>Emergencies:</strong> If you are experiencing a mental health emergency or thoughts of self-harm, call 911 immediately or go to your nearest emergency room. For crisis support: National Suicide Prevention Lifeline 988 | Crisis Text Line: Text HOME to 741741.<br><br>
+            <strong>Legal Notice:</strong> Statements on this website have not been evaluated by the FDA and are not intended to diagnose, treat, cure, or prevent any condition. Treatment outcomes vary by individual. Services available to Utah residents only. All patient information protected under HIPAA.<br><br>
+            <strong>Contact:</strong> For non-emergency questions call (385) 504-1334. This website is not secure for confidential communications - use our patient portal or call directly.<br><br>
+            Allen Psychiatry, LLC reserves the right to update this disclaimer at any time.</p>
+            <label style="display:block;margin:20px 0;">
+                <input type="checkbox" id="disclaimer-acknowledge"> I have read and understand the above disclaimer.
+            </label>
+            <button id="disclaimer-continue" class="btn btn-primary" disabled>Continue to Scheduling</button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./js/main.js"></script>
+    <script>
+    // Disclaimer modal logic
+    const scheduleLink = document.getElementById('schedule-online-link');
+    const ctaScheduleBtn = document.getElementById('cta-schedule-btn');
+    const modal = document.getElementById('disclaimer-modal');
+    const acknowledge = document.getElementById('disclaimer-acknowledge');
+    const continueBtn = document.getElementById('disclaimer-continue');
+
+    function showDisclaimerModal() {
+        modal.style.display = 'block';
+        acknowledge.checked = false;
+        continueBtn.disabled = true;
+    }
+
+    if (scheduleLink && modal && acknowledge && continueBtn) {
+        scheduleLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            showDisclaimerModal();
+        });
+    }
+
+    if (ctaScheduleBtn) {
+        ctaScheduleBtn.addEventListener('click', function(e) {
+            e.preventDefault();
+            showDisclaimerModal();
+        });
+    }
+
+    acknowledge.addEventListener('change', function() {
+        continueBtn.disabled = !acknowledge.checked;
+    });
+
+    continueBtn.addEventListener('click', function() {
+        window.location.href = 'https://pp-wfe-100.advancedmd.com/154986/onlinescheduling/v2/patients';
+    });
+
+    window.onclick = function(event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    };
+
+    // Mobile menu toggle
+    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+    const mainNav = document.querySelector('.main-nav');
+
+    if (mobileMenuToggle && mainNav) {
+        mobileMenuToggle.addEventListener('click', function() {
+            mainNav.classList.toggle('active');
+            this.classList.toggle('active');
+        });
+    }
+
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', function(event) {
+        if (mainNav && mainNav.classList.contains('active') && 
+            !event.target.closest('.main-nav') && 
+            !event.target.closest('.mobile-menu-toggle')) {
+            mainNav.classList.remove('active');
+            mobileMenuToggle.classList.remove('active');
+        }
+    });
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            if (this.getAttribute('href') !== '#') {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            }
+        });
+    });
+    </script>
+</body>
+</html> 
