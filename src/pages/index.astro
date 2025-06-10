@@ -1,16 +1,139 @@
 ---
-
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import DisclaimerModal from "../components/DisclaimerModal.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout
+  title="Allen Psychiatry | Mental Health Care in Provo, UT"
+  description="Allen Psychiatry - Providing compassionate mental health care in Utah. Specializing in ADHD, anxiety, depression, and PTSD treatment."
+>
+  <Header />
+
+  <!-- Hero Section -->
+  <section id="home" class="hero home-page-hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Comprehensive Mental Health Care in Provo, UT</h1>
+        <p class="lead">
+          Expert psychiatric services for individuals, families, and communities
+          throughout Utah County and rural Utah.
+        </p>
+        <div class="hero-actions">
+          <a href="tel:3855041334" class="btn btn-primary">
+            <i class="fas fa-phone"></i>
+            Call (385) 504-1334
+          </a>
+          <a
+            href="https://pp-wfe-100.advancedmd.com/154986/onlinescheduling/v2/patients"
+            class="btn btn-secondary"
+            id="cta-schedule-btn"
+          >
+            <i class="fas fa-calendar-alt"></i>
+            Schedule Appointment
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Services</h2>
+        <p>
+          Allen Psychiatry offers comprehensive mental health services tailored
+          to your individual needs. Our experienced team provides evidence-based
+          treatment in a supportive, confidential environment.
+        </p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-image">
+            <img src="/images/adhd.jpg" alt="ADHD Testing & Treatment" />
+          </div>
+          <div class="service-content">
+            <h3>ADHD Testing & Treatment</h3>
+            <p>
+              Comprehensive evaluation and personalized treatment plans for ADHD
+              in adolescents and adults.
+            </p>
+            <a href="/services/adhd" class="btn btn-outline">Learn More</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-image">
+            <img src="/images/anxiety.jpg" alt="Anxiety Treatment" />
+          </div>
+          <div class="service-content">
+            <h3>Anxiety Treatment</h3>
+            <p>
+              Expert care for anxiety disorders, including social anxiety, panic
+              disorder, and generalized anxiety.
+            </p>
+            <a href="/services/anxiety" class="btn btn-outline">Learn More</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-image">
+            <img src="/images/depression.jpg" alt="Depression Treatment" />
+          </div>
+          <div class="service-content">
+            <h3>Depression Treatment</h3>
+            <p>
+              Compassionate support and evidence-based treatment for depression
+              and mood disorders.
+            </p>
+            <a href="/services/depression" class="btn btn-outline">Learn More</a
+            >
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-image">
+            <img src="/images/ptsd.jpg" alt="PTSD Treatment" />
+          </div>
+          <div class="service-content">
+            <h3>PTSD Treatment</h3>
+            <p>
+              Specialized care for post-traumatic stress disorder and
+              trauma-related conditions.
+            </p>
+            <a href="/services/ptsd" class="btn btn-outline">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Take the First Step Toward Better Mental Health</h2>
+        <p>
+          Whether you're seeking help for yourself or a loved one, we're here to
+          provide the support and care you need. Our team of mental health
+          professionals is dedicated to helping you achieve lasting wellness.
+        </p>
+        <div class="cta-buttons">
+          <a href="tel:3855041334" class="btn btn-primary">
+            <i class="fas fa-phone"></i>
+            Call (385) 504-1334
+          </a>
+          <a
+            href="https://pp-wfe-100.advancedmd.com/154986/onlinescheduling/v2/patients"
+            class="btn btn-secondary"
+          >
+            <i class="fas fa-calendar-alt"></i>
+            Schedule Appointment
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Footer />
+  <DisclaimerModal />
+</Layout>
